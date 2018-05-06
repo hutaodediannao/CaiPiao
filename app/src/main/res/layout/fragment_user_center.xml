@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lavender"
+    android:orientation="vertical"
+    tools:context="com.app.caipiao.shishicai.fragment.UserCenterFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/red"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:text="个人中心" />
+
+    <FrameLayout
+        android:id="@+id/item0"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|center"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_camera_black_24dp"
+            tools:ignore="VectorDrawableCompat" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|center"
+            android:layout_marginLeft="60dp"
+            android:gravity="center|left"
+            android:text="扫一扫"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right|center"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_chevron_right_black_24dp"
+            tools:ignore="VectorDrawableCompat" />
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/item1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|center"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_about_black_24dp"
+            tools:ignore="VectorDrawableCompat" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|center"
+            android:layout_marginLeft="60dp"
+            android:gravity="center|left"
+            android:text="关于软件"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right|center"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_chevron_right_black_24dp"
+            tools:ignore="VectorDrawableCompat" />
+
+
+    </FrameLayout>
+
+</LinearLayout>
